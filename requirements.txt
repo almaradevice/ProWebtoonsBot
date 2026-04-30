@@ -1,8 +1,5 @@
+python-telegram-bot
 telethon
 pyrogram
 tgcrypto
 flask
-gunicorn
-fastapi
-uvicorn
-python-telegram-bot
