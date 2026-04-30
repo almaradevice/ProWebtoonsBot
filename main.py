@@ -1,5 +1,6 @@
 from telethon import TelegramClient, events
 import os
+os.system('python app.py')
 
 # Ambil dari Environment Variables di Railway
 API_ID = int(os.environ.get("API_ID"))
