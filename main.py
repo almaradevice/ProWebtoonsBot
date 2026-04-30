@@ -1,6 +1,9 @@
 from telethon import TelegramClient, events
-import os
-os.system('python app.py')
+import os, subprocess
+
+subprocess.Popen([
+    'python', 'web-app.py'
+], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True)
 
 # Ambil dari Environment Variables di Railway
 API_ID = int(os.environ.get("API_ID"))
