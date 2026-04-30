@@ -18,4 +18,5 @@ if __name__ == "__main__":
     # Mendapatkan port dari environment variable (Railway) atau default ke 5000
     port = int(os.environ.get("PORT", 5000))
 
+    print(f"Server berjalan di: http://localhost:{port}/?slug=no-longer-a-heroine")
     app.run(host='0.0.0.0', port=port)
